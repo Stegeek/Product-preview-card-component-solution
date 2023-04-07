@@ -72,7 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 6%;
     cursor: pointer;
     transition-property: background-color;
 }
@@ -84,7 +84,7 @@ button:active {
 
 .product-preview h1 {
     font-family: 'Fraunces', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 h4,
@@ -93,7 +93,7 @@ p {
 }
 
 .product-preview h4 {
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .new-price {
@@ -105,7 +105,7 @@ p {
 
 .prices {
     display: flex;
-    margin: 30px 0 40px 0;
+    margin: 5% 0 10% 0;
 }
 
 .previous-price {
@@ -142,7 +142,7 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
 
     .content {
         width: 100%;
