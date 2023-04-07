@@ -37,7 +37,7 @@ body {
 }
 
 .product-image {
-    width: 57%;
+    width: 55%;
 }
 
 .product-image img {
@@ -49,10 +49,16 @@ body {
 
 
 .product-preview {
-    width: 43%;
+    width: 45%;
     padding: 7% 10% 0 7.5%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 10px 10px 0
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    /* padding: 7% 10% 0 7.5%; */
 }
 
 .product-preview button {
@@ -99,7 +105,7 @@ p {
 
 .prices {
     display: flex;
-    margin: 20px 0;
+    margin: 30px 0 40px 0;
 }
 
 .previous-price {
@@ -111,7 +117,7 @@ p {
 .Description {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 
@@ -164,6 +170,14 @@ p {
     .text {
         width: 90%;
         padding: 30px 30px 0 15px;
+    }
+
+    .Description {
+        line-height: 1.5em;
+    }
+
+    .prices {
+        margin: 20px 0;
     }
 
     .product-image {
